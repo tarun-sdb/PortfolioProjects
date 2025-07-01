@@ -22,7 +22,7 @@ from CovidDeaths
 where continent is not null
 order by 1,2
 
-
+--cte
 
 with PopVsVac (continent, location, date, population, new_vaccinations, rolling_sum_of_vaccines)
 as (
